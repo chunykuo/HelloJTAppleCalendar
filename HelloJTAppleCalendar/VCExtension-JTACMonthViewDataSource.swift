@@ -13,7 +13,7 @@ extension ViewController: JTACMonthViewDataSource {
         
         // 設定日曆的起始日，以及結束日
         let startDate = Date()
-        let endDate = Date().addingTimeInterval(60*60*24*31)
+        let endDate = Date().addingTimeInterval(60*60*24*31*3)
         return ConfigurationParameters(startDate: startDate, endDate: endDate)
     }
 }
